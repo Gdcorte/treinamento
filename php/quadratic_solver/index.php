@@ -15,4 +15,10 @@ echo json_encode($result2);
 echo "<br>";
 echo json_encode($result3);
 
+echo "<br>";
+echo "<br>";
+$test = 5;
+$incremented = incrementerTest($test);
+
+echo "my test was " . $test . " and incrementer is " . $incremented;
 ?>

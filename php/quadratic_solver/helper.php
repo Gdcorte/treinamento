@@ -42,4 +42,12 @@ function quadraticSolver($a, $b, $c){
     return $roots;
 }
 
+
+function incrementerTest($a){
+    $a = $a + 10;
+
+    return $a;
+
+}
+
 ?>
