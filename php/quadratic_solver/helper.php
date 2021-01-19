@@ -9,10 +9,7 @@ function quadraticSolver($a, $b, $c){
     $im = sqrt(abs($delta))/(2*$a);
 
     // Instantiating variables
-    $roots = [
-        0,
-        0
-    ];
+    $roots = [];
 
     // Dual Root
     if ($delta==0){
@@ -42,12 +39,5 @@ function quadraticSolver($a, $b, $c){
     return $roots;
 }
 
-
-function incrementerTest($a){
-    $a = $a + 10;
-
-    return $a;
-
-}
 
 ?>
