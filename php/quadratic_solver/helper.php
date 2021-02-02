@@ -40,4 +40,12 @@ function quadraticSolver($a, $b, $c){
 }
 
 
+$a = $_GET['a'];
+$b = $_GET['b'];
+$c = $_GET['c'];
+
+$roots = quadraticSolver($a, $b, $c);
+
+echo json_encode($roots);
+
 ?>
